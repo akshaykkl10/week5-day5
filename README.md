@@ -88,6 +88,7 @@ Examples:
 @pages/*
 @router/*
 @utils/*
+@src/*
 ```
 
 ## Project Structure
