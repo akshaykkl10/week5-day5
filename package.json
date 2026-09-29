@@ -1,9 +1,10 @@
 {
     "scripts": {
-        "build": "tsc",
+        "build": "vite build",
         "watch": "tsc --watch",
         "test": "vitest run --coverage",
-        "dev": "vite"
+        "dev": "vite",
+        "preview": "vite preview"
     },
     "type": "module",
     "devDependencies": {
