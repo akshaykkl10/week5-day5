@@ -4,7 +4,7 @@ A small Single Page Application (SPA) built with TypeScript. The application pro
 
 ## Live Demo
 
-[Add your deployed application URL here]
+(https://akshaykkl10.github.io/week5-day5/)
 
 ## Tech Stack
 
