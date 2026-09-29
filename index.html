@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager</title>
+    <script type="importmap">
+        {
+            "imports": {
+                "@utils/": "./src/utils/",
+                "@components/": "./src/components/",
+                "@pages/": "./src/pages/",
+                "@router/": "./src/router/",
+                "@src/": "./src/",
+                "@tests/": "./tests/"
+            }
+        }
+    </script>
+    
+    
+    <link rel="stylesheet" href="src/css/styles.css">
+</head>
+<body>
+    <nav>
+        <a href="/" data-link>Home</a>
+        <a href="/list" data-link>Tasks</a>
+        <a href="/settings" data-link>Settings</a>
+    </nav>
+    
+    <main id="app"></main>
+    <script src="./src/main.ts" type="module" defer></script>
+</body>
+</html>

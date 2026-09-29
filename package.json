@@ -1,0 +1,21 @@
+{
+    "scripts": {
+        "build": "tsc",
+        "watch": "tsc --watch",
+        "test": "vitest run --coverage",
+        "dev": "vite"
+    },
+    "type": "module",
+    "devDependencies": {
+        "@eslint/js": "^10.0.1",
+        "@types/node": "^26.6.3",
+        "@vitest/coverage-v8": "^4.1.11",
+        "eslint": "^10.11.0",
+        "globals": "^17.12.0",
+        "jiti": "^2.7.0",
+        "jsdom": "^29.1.1",
+        "typescript-eslint": "^8.71.0",
+        "vite": "^8.3.1",
+        "vitest": "^4.1.11"
+    }
+}
