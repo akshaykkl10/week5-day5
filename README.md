@@ -202,3 +202,13 @@ The test suite currently covers the application's business logic above the requi
 ## Project Goals
 
 This project was migrated from JavaScript to TypeScript as part of the Week 5 TypeScript training and checkpoint. The main goals were to introduce static typing, improve type safety, use TypeScript-specific patterns, and maintain the existing application's functionality while adding automated tests.
+
+## Deployment
+
+The application is configured for GitHub Pages deployment using Vite and GitHub Actions.
+
+The production build is generated with `vite build` and deployed from the `dist` directory.
+
+After the PR is merged into `main`, GitHub Actions will deploy the application to:
+
+https://akshaykkl10.github.io/week5-day5/
